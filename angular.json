@@ -1,7 +1,6 @@
 {
   "$schema": "https://json.schemastore.org/angular-cli",
   "version": 1,
-  "defaultProject": "avi-lab",
   "projects": {
     "avi-lab": {
       "projectType": "application",
@@ -16,6 +15,7 @@
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [],
+            "tsConfig": "tsconfig.app.json",
             "assets": [
               "src/favicon.ico",
               "src/assets",
@@ -23,8 +23,7 @@
             ],
             "styles": [
               "src/styles.scss"
-            ],
-            "serviceWorker": true
+            ]
           },
           "configurations": {
             "production": {
@@ -37,7 +36,7 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "avi-lab:build"
+            "buildTarget": "avi-lab:build"
           },
           "configurations": {
             "production": {

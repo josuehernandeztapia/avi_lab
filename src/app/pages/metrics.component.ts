@@ -11,7 +11,7 @@ import { ApiConfigService } from '../core/api-config.service';
     <h2>Métricas API</h2>
     <p class="muted">Mock mode: {{ api.isMockMode() ? 'ON' : 'OFF' }}</p>
     <p class="muted">Base URL: {{ baseUrl }}</p>
-    <p class="muted">Usa el Runner para generar llamadas.</n>
+    <p class="muted">Usa el Runner para generar llamadas.</p>
   </div>
   `
 })

@@ -1,0 +1,127 @@
+{
+  "generatedDate": "2025-09-26",
+  "dataset": {
+    "total": 55,
+    "categories": [
+      {
+        "id": "basic_info",
+        "count": 6,
+        "name": "Información Básica"
+      },
+      {
+        "id": "daily_operation",
+        "count": 8,
+        "name": "Operación Diaria"
+      },
+      {
+        "id": "operational_costs",
+        "count": 7,
+        "name": "Costos Operativos"
+      },
+      {
+        "id": "business_structure",
+        "count": 8,
+        "name": "Estructura Empresarial"
+      },
+      {
+        "id": "assets_patrimony",
+        "count": 6,
+        "name": "Activos y Patrimonio"
+      },
+      {
+        "id": "credit_history",
+        "count": 6,
+        "name": "Historial Crediticio"
+      },
+      {
+        "id": "payment_intention",
+        "count": 6,
+        "name": "Intención de Pago"
+      },
+      {
+        "id": "risk_evaluation",
+        "count": 8,
+        "name": "Evaluación de Riesgo"
+      }
+    ],
+    "weights": {
+      "9-10": 12,
+      "7-8": 18,
+      "5-6": 16,
+      "3-4": 9
+    },
+    "stressLevels": {
+      "1": 6,
+      "2": 14,
+      "3": 15,
+      "4": 12,
+      "5": 8
+    }
+  },
+  "analysis": {
+    "totalQuestions": 55,
+    "completionPercentage": 100,
+    "categoryDistribution": [
+      {
+        "id": "basic_info",
+        "count": 6,
+        "name": "Información Básica"
+      },
+      {
+        "id": "daily_operation",
+        "count": 8,
+        "name": "Operación Diaria"
+      },
+      {
+        "id": "operational_costs",
+        "count": 7,
+        "name": "Costos Operativos"
+      },
+      {
+        "id": "business_structure",
+        "count": 8,
+        "name": "Estructura Empresarial"
+      },
+      {
+        "id": "assets_patrimony",
+        "count": 6,
+        "name": "Activos y Patrimonio"
+      },
+      {
+        "id": "credit_history",
+        "count": 6,
+        "name": "Historial Crediticio"
+      },
+      {
+        "id": "payment_intention",
+        "count": 6,
+        "name": "Intención de Pago"
+      },
+      {
+        "id": "risk_evaluation",
+        "count": 8,
+        "name": "Evaluación de Riesgo"
+      }
+    ],
+    "weightDistribution": {
+      "9-10": 12,
+      "7-8": 18,
+      "5-6": 16,
+      "3-4": 9
+    },
+    "stressDistribution": {
+      "1": 6,
+      "2": 14,
+      "3": 15,
+      "4": 12,
+      "5": 8
+    }
+  },
+  "recommendations": [
+    "Use demo mode (5 questions) for initial testing",
+    "Focus on critical questions (weight ≥9) for risk assessment",
+    "Monitor high-stress questions (level ≥4) for behavior analysis",
+    "Implement cross-validation for financial coherence",
+    "Use micro-local analysis for detailed evaluation"
+  ]
+}
