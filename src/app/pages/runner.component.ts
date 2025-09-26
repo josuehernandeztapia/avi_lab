@@ -8,10 +8,9 @@ import {
   AVI_CONFIG,
   getQuestionsByCategory,
   getCriticalQuestions,
-  getQuestionsForDemo,
-  AVICategory,
-  AVIQuestionEnhanced
+  getQuestionsForDemo
 } from '../../data/avi-questions-complete';
+import { AVICategory, AVIQuestionEnhanced } from '../../data/avi-types';
 
 @Component({
   standalone: true,
